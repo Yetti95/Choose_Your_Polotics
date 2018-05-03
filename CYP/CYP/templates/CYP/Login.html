@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  {% load staticfiles %}
+  <link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}" type = "text/css"/>
+
+
+</head>
+
+<body>
+{% block content %}
+{% if form.errors %}
+  <p class="error"> Sorry, that's not a valid username or password</p>
+  {% endif %}
+<form action="/accounts/auth" method="post">{% csrf_token %}
+  <header>Login</header>
+  <label for="username">Username</label>
+  <input type="text" name="username" value="" id="username"/>
+  <div class="help">At least 6 character</div>
+  <label for="password">Password <span>*</span></label>
+  <input type="password" name="password" value="" id="password"/>
+  <div class="help">Use upper and lowercase letters as well</div>
+  <button type="submit" value="login">Login</button>
+  <a href="accounts/register">Register</a>
+
+</form>
+{% endblock %}
+
+</body>
+</html>

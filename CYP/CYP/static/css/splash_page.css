@@ -1,0 +1,25 @@
+.body {
+  height: 200%;
+}
+#entry_text {
+  text-align: left;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+#box {
+  margin-left: 4.1%;
+  /* margin-right: 5%; */
+  width: 90%;
+  min-height: 25%;
+  background-color: #1D305B;
+  align-items: center;
+  position: absolute;;
+  bottom: 0%;
+}
+
+#inbox {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}

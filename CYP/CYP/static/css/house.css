@@ -1,0 +1,148 @@
+.html, .body {
+   height:100vh;
+   background-color: #fff;
+}
+
+.article-container {
+  height:94vh;
+  overflow: auto;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+.people-container {
+  height:94vh;
+  overflow: auto;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+#article_column {
+  padding: 0px;
+}
+
+#articles_column {
+  /*border-left: 2px solid black;*/
+  background-color: #e5e6e6;
+  height:94vh;
+  padding: 0px;
+  box-shadow: -2px 0 4px 0 rgba(0,0,0,.2);
+}
+
+#people_column {
+  background-color: #e5e6e6;
+  height:94vh;
+  padding: 0px;
+  box-shadow: -2px 0 4px 0 rgba(0,0,0,.2);
+}
+
+
+#people_article_column {
+  padding: 0px;
+}
+
+#article-picture {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.picture_name {
+  display: none;
+}
+
+.article {
+  display: block;
+  color: #373e44;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.people {
+  display: -webkit-box;
+  color: #373e44;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+
+.container {
+  height:94vh;
+  /*margin-top: 75px;*/
+  display: block;
+  width: auto;
+  padding: 0px;
+  /*text-align: center;*/
+}
+
+.article_container_article {
+  padding-left: 10%;
+  padding-right: 10%;
+  /*display: block;*/
+  /*position: absolute;*/
+}
+
+.text_container {
+  width: 80%;
+
+}
+
+.article_image {
+  width: -webkit-fill-available
+}
+
+.article_image_row {
+  height: calc();
+}
+
+.col-xs-12 {
+  overflow: hidden;
+  position:relative;
+}
+
+.text {
+  display: inline-block;
+  font: normal 18px "Droid Sans", arial, sans-serif;
+}
+
+.source {
+  font-weight: 500;
+}
+
+.col-xs-1 img {
+  clip: rect(0px,53px,530px,0px);
+}
+
+.col-xs-3 {
+  padding: 0px;
+}
+
+#senate_diagram {
+  padding-left: 0%;
+  padding-top: 5%;
+}
+
+.article_link {
+  display: grid;
+  color: #373e44;
+}
+
+.people_link {
+  display: grid;
+  color: #373e44;
+}
+
+#article_overlay_id {
+   background: transparent;
+   position: inherit;
+}
+
+ div.stuff {
+   height:94vh;
+   overflow: auto;
+   /*overflow-x: hidden;*/
+   position: static;
+ }

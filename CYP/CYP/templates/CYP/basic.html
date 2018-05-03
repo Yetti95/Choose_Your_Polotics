@@ -1,0 +1,8 @@
+{% extends 'CYP/header.html' %}
+{% block content %}
+    {% for c in message %}
+        <p>{{c}}</p>
+    {% endfor %}
+{% endblock %}
+<!--message is passed from personal/views.py-->
+<!-- endfor ends the for loop-->

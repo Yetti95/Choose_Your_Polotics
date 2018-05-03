@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+
+<header id="header">
+	<div class="header-content">
+		<ul class="header">
+			<li><a href=" {% url 'index' %}">CYP</a></li>
+			<li><a href="{% url 'recent_news' %}">Recent News</a></li>
+			<li><a href="{% url 'house' %}">House</a></li>
+			<li><a href="{% url 'senate' %}">Senate</a></li>
+			<li><a href=" {% url 'About' %}">About</a></li>
+		</ul>
+	</div>
+        <!-- <img src="{% static 'images/founding.jpg' %}" align="middle" style='max-height:150px;' alt="Logo" /> -->
+</header>
+
+<head>
+	<link rel="stylesheet" href="{% static 'css/header.css' %}" type="text/css">
+
+<!-- <img src="{% static 'images/ffLogo.png' %}" class="responsive-img" align="middle" style='max-height:150px;' alt="face"> -->
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}" type = "text/css"/>
+     <!-- we could also use /static/css/bootstrap.min.css to hard code.
+            The example above uses a varible with jinja.
+            We could make the static directory local by adding another directory in the static folder
+            because django combines all static dir
+            -->
+
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+
+		<!-- <h1> Choose Your Politics </h1> -->
+
+
+</head>
+
+	<body>
+	<div class="container-fluid" style="padding:0px;">
+
+			   {% block content %}
+			   {% endblock %}
+			</div>
+		  </div>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

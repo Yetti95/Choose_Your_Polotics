@@ -1,0 +1,43 @@
+{% extends "CYP/header.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/splash_page.css' %}" type="text/css">
+
+<head>
+
+  <!-- <center><h1 style="color:black;">Let your news come to you.</h1><center> -->
+  <title>CYP</title>
+
+</head>
+<body>
+  <div id = "entry_text">
+    <h2 style="font-size:70px;"> Choose your future </h2>
+    <h2 style="font-size:70px; color:red;"> Stay current, up to date </h2>
+    <h2 style="font-size:70px;"> Be politicaly aware </h2>
+    <br><br><br>
+    <p style="font-size:16px; color:red;">
+      60% <span style = "color:black;"> of the country's </span> 232 <span style = "color:black;"> million elidable voters voted in 2016 </span>
+    </p>
+  </div>
+
+  <div id = "box">
+    <div id = "inbox">
+      <br><br><br>
+      <p style="font-size:38px; color:white; text-align:center;"> Why are informed voters important? </p>
+      <br>
+      <p style="font-size:15px; color:white;">
+        Obviously, voting is an import right that should be exercised by all, but it is just as
+        important to understand and be aware of what you’re voting for. Mindlessly checking boxes
+        on a ballot simply to say that you’ve voted and to get your “I Voted” sticker is counter
+        productive and disruptive.
+        
+      </p>
+    </div>
+  </div>
+
+</body>
+
+{% include "CYP/includes/htmlsnippet.html" %}
+{% endblock %}

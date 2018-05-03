@@ -1,0 +1,66 @@
+{% extends "CYP/header.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/house.css' %}" type="text/css">
+
+<head>
+
+<!-- <center><h1 style="color:black;">Let your news come to you.</h1><center> -->
+
+
+  <!-- Load scrolling news window -->
+
+  </head>
+
+  <body>
+    <div class="row">
+        <div class="col-xs-9">
+          <div class="container" role="main">
+            <div class="apple_overlay" id="article_overlay_id">
+              <div class="stuff"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-3" id="article_column_container">
+          <div class="col-xs-2"></div>
+          <div id="article_column" class="col-xs-10">
+            <div class="article-container" role="main">
+
+              <!-- This is where content starts -->
+
+              {% for article in scrolls %}
+              <a class="article_link" href="{{article.id}}" rel="#article_overlay_id" style="text-decoration:none">
+                <span class="article">
+                <!-- <div id="article-picture" class="col-xs-3">
+                  <img src='{{article.top_image}}' style='max-height:60px; float: left; padding: 2px;' height="56px" width="93px">
+                </div> -->
+                  <div id="article-info">
+                    <div class="source">{{article.source}}</div>
+                    <div class="title">{{article.title}}</div>
+                    <div class="date">{{article.post_date}}</div>
+                  </div>
+                </span>
+              </a>
+              {% endfor %}
+
+
+
+              <!-- END SCROLLER CONTENT -->
+
+              </div>
+            </div>
+
+          </div>
+      </div>
+
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+        <script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+        <script src="{% static 'js/senate.js' %}"></script>
+  </body>
+</head>
+
+{% include "CYP/includes/htmlsnippet.html" %}
+{% endblock %}

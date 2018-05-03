@@ -1,0 +1,28 @@
+{% extends "CYP/header.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/home.css' %}" type="text/css">
+
+<head>
+
+<!-- <center><h1 style="color:black;">Let your news come to you.</h1><center> -->
+
+
+  <!-- Load scrolling news window -->
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>CYP News</title>
+</head>
+
+  <body>
+    <div class="well">
+  <iframe name="NewsIFrame" src="News/news_scroll_one.html">News</iframe>
+  <iframe name="NewsIFrame" src="News/news_scroll_two.html">News</iframe>
+  <iframe name="NewsIFrame" src="News/news_scroll_three.html">News</iframe>
+  </div>
+
+</body>
+
+{% include "CYP/includes/htmlsnippet.html" %}
+{% endblock %}

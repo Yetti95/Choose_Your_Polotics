@@ -1,0 +1,50 @@
+Source URL:
+
+[Done]  https://www.seattletimes.com/seattle-news/politics/
+[Done]  http://www.theolympian.com/news/politics-government/
+[Done]  https://washingtonstatewire.com/category/news/
+[Skip]  http://www.seattlepi.com/local/politics/
+[Done]  http://www.king5.com/politics
+[Done]  http://www.thenewstribune.com/news/politics-government/
+[Done]  https://wsrp.org/media/press-releases/
+[Done]  https://www.wa-democrats.org/news
+[Done]  http://kuow.org/term/washington-state-legislature
+[Done]  http://www.publicnewsservice.org/state-washington/WA
+[Done]  http://crosscut.com/category/politics/
+[Done]  http://www.spokesman.com/washington-government/
+[Done]  https://www.washingtonea.org/ourvoice/
+[Skip]  https://www.sos.wa.gov/office/news-releases.aspx#/news
+[Done]  https://www.tvw.org/blog/
+[Done]  http://q13fox.com/category/news/politics/
+[Done]  http://nwnewsnetwork.org/category/government-and-politics
+*[Done]  http://www.kitsapsun.com/news/politics/
+
+
+
+Source Name:
+
+[Done]  Seattle Times
+[Done]  The Olympian
+[Done]  Washington State Wire
+[Skip]  Seattle PI
+[Done]  King 5
+[Done]  The News Tribune
+[Done]  Washington State Republican Party
+[Done]  Washington Democrats
+[Done]  KOUW
+[Done]  Public News Service
+[Done]  Crosscut
+[Done]  The Spokesman-Review
+[Done]  Washington Education Association
+[Skip]  Office of Washington State Secretary of State
+[Done]  The Capitol Record
+[Done]  Q13 Fox
+[Done]  NW News Network
+*[Done]  Kitsap Sun
+
+
+
+
+* Kitsap Sun has a 10 views per day maximum on free viewers and its newest article its from May 2017, DON'T INCLUDE *
+
+Washington state legislature bill web service: http://wslwebservices.leg.wa.gov/

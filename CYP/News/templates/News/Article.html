@@ -1,0 +1,38 @@
+
+{% load staticfiles %}
+{% block content %}
+<!-- <link rel="stylesheet" href="{% static 'css/article.css' %}" type="text/css"> -->
+
+    <!-- <input action="action" type="button" value="Back" onclick="history.go(-1);" /> -->
+    <div class="article_container_article">
+      <!-- <div class="row">
+        <h3>{{title}}</h3>
+        <h6>on {{post_date}}</h6>
+        <h6>Author: {{author}}</h6>
+        <br>
+        <img src='{{top_image}}' style='float: left; padding: 2px;'>
+      </div> -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>{{title}}</h3>
+          {{source}}
+          <p>{{post_date}} | {{author}}</p>
+          <!-- <h6>Author: {{author}}</h6> -->
+          <div class="article_image_row">
+            <img class="article_image" src='{{top_image}}' style='float: left; padding: 2px; width: 53.333333336vw;'>
+          </div>
+          <span class="text">
+            <br>
+            <br>
+            <!-- <h3>{{title}}</h3>
+            <h6>{{post_date}} | {{author}}</h6>
+            <!-- <h6>Author: {{author}}</h6> -->
+            <!-- <img class="article_image" src='{{top_image}}' style='float: left; padding: 2px;'> -->
+            <!-- <br> -->
+            <!-- <br> -->
+            {{texts|linebreaks}}
+          </span>
+        </div>
+      </div>
+    {% endblock %}
+    </div>

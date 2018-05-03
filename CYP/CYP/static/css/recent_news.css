@@ -1,0 +1,19 @@
+.well {
+  text-align: center;
+  float: left;
+  height: 100%;
+  width: 100%;
+  border: none;
+  color: inherit;
+}
+
+.div {
+  float: left;
+}
+
+iframe {
+  display: inline-block;
+  height: 100%;
+  width: 40%;
+  border: none;
+}
